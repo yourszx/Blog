@@ -1,0 +1,17 @@
+{
+  "name": "blog_me",
+  "version": "1.0.0",
+  "description": "这是一个blog项目。",
+  "main": "./bin/server.js",
+  "bin": {
+    "blog_me": "server.js"
+  },
+  "scripts": {
+    "dev": "nodemon ./bin/server.js"
+  },
+  "author": "zhangxiang",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
